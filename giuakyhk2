@@ -6,10 +6,10 @@ using namespace std;
 // Phần 1: Khai báo và khởi tạo mảng MSSV
 void khoiTaoMang(string arrayMSSV[]) {
     arrayMSSV[0] = "";
-    arrayMSSV[1] = "2301CT1234";
-    arrayMSSV[2] = "2302CT3456";
+    arrayMSSV[1] = "2301CT0188";
+    arrayMSSV[2] = "2302CT0246";
     arrayMSSV[3] = "2305CT3999";
-    arrayMSSV[4] = "2304CT0002";
+    arrayMSSV[4] = "2304CT0001";
 }
 
 // Phần 2: Nhập MSSV của user vào phần tử đầu tiên của mảng
