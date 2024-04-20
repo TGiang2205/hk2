@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Phần 1: Khai báo và khởi tạo mảng MSSV
+// B1:Khai báo và khởi tạo mảng MSSV
 void khoiTaoMang(string arrayMSSV[]) {
     arrayMSSV[0] = "";
     arrayMSSV[1] = "2301CT0188";
@@ -12,13 +12,13 @@ void khoiTaoMang(string arrayMSSV[]) {
     arrayMSSV[4] = "2304CT0001";
 }
 
-// Phần 2: Nhập MSSV của user vào phần tử đầu tiên của mảng
+// B2:Nhập MSSV của user vào phần tử đầu tiên của mảng
 void nhapMSSV(string arrayMSSV[]) {
     cout << "Nhap MSSV cua ban: ";
     cin >> arrayMSSV[0];
 }
 
-// Phần 3: In mảng ra màn hình
+// B3:In mảng ra màn hình
 void inMang(string arrayMSSV[]) {
     cout << "Mang sau khi nhap:" << endl;
     for (int i = 0; i < 5; i++) {
@@ -26,7 +26,7 @@ void inMang(string arrayMSSV[]) {
     }
 }
 
-// Phần 4: Sắp xếp mảng theo MSSV
+// B4:Sắp xếp mảng theo MSSV
 void sapXepMang(string arrayMSSV[]) {
     string temp;
     for (int i = 0; i < 5 - 1; i++) {
@@ -44,7 +44,7 @@ void sapXepMang(string arrayMSSV[]) {
     }
 }
 
-// Phần 5: Tìm phần tử lớn nhất và in ra địa chỉ và giá trị
+// B5:Tìm phần tử lớn nhất và in ra địa chỉ và giá trị
 void timPhanTuLonNhat(string arrayMSSV[]) {
     string *ptrArrayMSSV = arrayMSSV;
     string *maxMSSV = arrayMSSV;
